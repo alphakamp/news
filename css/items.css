@@ -72,11 +72,11 @@
 .feed_item {
 	border-top: 1px solid #ccc;
 	min-height: 120px;
-	background-image: linear-gradient(top, rgb(248,248,248) 0, rgb(255,255,255) 84px);
-	background-image: -o-linear-gradient(top, rgb(248,248,248) 0, rgb(255,255,255) 84px);
-	background-image: -moz-linear-gradient(top, rgb(248,248,248) 0, rgb(255,255,255) 84px);
-	background-image: -webkit-linear-gradient(top, rgb(248,248,248) 0, rgb(255,255,255) 84px);
-	background-image: -ms-linear-gradient(top, rgb(248,248,248) 0, rgb(255,255,255) 84px);
+	background-image: linear-gradient(top, rgb(51,51,51) 0, rgb(51,51,51) 84px);
+	background-image: -o-linear-gradient(top, rgb(51,51,51) 0, rgb(51,51,51) 84px);
+	background-image: -moz-linear-gradient(top, rgb(51,51,51) 0, rgb(51,51,51) 84px);
+	background-image: -webkit-linear-gradient(top, rgb(51,51,51) 0, rgb(51,51,51) 84px);
+	background-image: -ms-linear-gradient(top, rgb(51,51,51) 0, rgb(51,51,51) 84px);
 	padding: 35px 0 0 0;
 	cursor: default;
 }
@@ -155,10 +155,10 @@
 	}
 
 		.feed_item .item_title a {
-			color: #222;
+			color: #888;
 		}
 			.feed_item .item_title a:hover {
-				color: #222;
+				color: #aaa;
 				text-decoration: underline;
 			}
 
@@ -226,6 +226,7 @@
 		font-size: 14px;
 		clear: both;
 		overflow-x: auto;
+		color: #ddd;
 		/*overflow-y: hidden;
 		height: 80px;*/
 	}
@@ -272,7 +273,7 @@
 		}
 
 		.feed_item .body a {
-			color: #0000ff;
+			color: #888888;
 			text-decoration: underline;
 		}
 
@@ -347,7 +348,7 @@
 
 
 	.feed_item .secondary_item_utils, .feed_item .secondary_item_utils a {
-		color: #000;
+		color: #fff;
 	}
 
 	.feed_item:hover .secondary_item_utils li {
